@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(34, 34, 46);
+    color:white;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    margin-bottom: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btns button{
+    color:white;
+    background: none;
+    padding: 4px 12px;
+    margin:2px;
+    border-radius: 6px;
+    /* border-color: #FFF;
+    border-style: solid; */
+}
+.btns button:hover{
+    color:goldenrod;
+}
+
+.container .grid{
+    margin:16px;
+    height: 512px;
+    width: 512px;
+    border-radius: 8px;
+    border:solid;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.container .credits{
+    font-family: monospace;
+    color:#999;
+}
