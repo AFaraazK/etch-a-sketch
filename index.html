@@ -12,10 +12,10 @@
     <div class="container">
         <h1 class="title">Etch-a-Sketch</h1>
         <div class="btns">
-            <button class="blackBtn">BLACK</button>
-            <button class="eraseBtn">ERASER</button>
-            <button class="gridBtn">GRID</button>
-            <button class="resetBtn">RESET</button>
+            <button class="blackBtn" onclick="cursorColor = 'black'">BLACK</button>
+            <button class="eraseBtn" onclick="cursorColor = 'white'">ERASER</button>
+            <button class="gridBtn" onclick="changeGridSize()">GRID</button>
+            <button class="resetBtn" onclick="reset()">RESET</button>
         </div>
 
         <div class="grid"></div>
